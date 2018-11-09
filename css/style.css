@@ -1,0 +1,53 @@
+html,
+body {
+    color: rgb(70, 83, 98);
+}
+
+.header-body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-left {
+    min-height: 90vh;
+    background-color: rgb(193, 176, 152);
+}
+
+.left-title {
+    ;
+    font-size: 8rem;
+}
+
+.left-title::before,
+.left-title::after {
+    content: "-";
+}
+
+.left-title:before,
+.left-title:after {
+    display: block;
+}
+
+.left-content,
+.right-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-right {
+    min-height: 90vh;
+    background-color: rgb(130, 163, 161);
+}
+
+.header-right h2 {
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .header-left,
+    .header-right {
+        min-height: 50vh;
+    }
+}
