@@ -10,7 +10,6 @@ The website will aim to promote and expand the business.
 The site supply’s a single page view, with link to anchor points. Each section will have a "read more" button to a separate page with more detailed information in comparison to the single page.
 The site will offer a description of the company, samples of work, contact and location information.
 
-[Wireframe Mock-up of PTME Landing page](assets/ptme-wireframe.png)
 
 ## Features ##
 
