@@ -12,6 +12,8 @@ The site will offer a description of the company, samples of work, contact and l
 
 [Link to mock layout image](assets/ps-mock.png)
 
+[Link to GitHub Pages view](https://samuelwatson89.github.io/primal-silver/)
+
 ## Features ##
 
 * Details of what the company offers
