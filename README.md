@@ -10,14 +10,17 @@ The website will aim to promote and expand the business.
 The site supply’s a single page view, with link to anchor points. Each section will have a "read more" button to a separate page with more detailed information in comparison to the single page.
 The site will offer a description of the company, samples of work, contact and location information.
 
+[Link to mock layout image](assets/ps-mock.png)
 
 ## Features ##
 
 * Details of what the company offers
-* information of where the company operates
-* examples of work
-* details on requests
-* links to eternal social media
+* Company contact information
+* About the company
+* Information of where the company operates
+* Examples of work
+* Details on requests
+* Links to eternal social media
 
 
 #### Future features ###
