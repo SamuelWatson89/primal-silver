@@ -19,6 +19,7 @@ p {
 
 .navbar-default .navbar-collapse {
     border-color: transparent;
+    background-color: rgb(80, 83, 98);
 }
 
 /* Menu Icon */
