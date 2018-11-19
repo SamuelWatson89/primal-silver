@@ -1,5 +1,12 @@
 body {
     padding-top: 80px;
+    background-color: rgb(244, 242, 243);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(35, 9, 3);
+}
+
+p {
+    font-size: 18px;
 }
 
 /* Header Navigation bar */
@@ -23,7 +30,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: rgb(158, 184, 186);
+    background-color: rgb(158, 188, 159);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -90,56 +97,117 @@ body {
 /* Hero */
 
 .hero {
-    min-height: 80vh;
-    background-image: url(../img/woods.jpg);
+    min-height: 40vh;
+    /* background-image: url(../img/woods.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(158, 184, 186);
+    background-size: cover;*/
+    background-color: rgb(101, 98, 86);
 }
 
 .hero-body {
-    min-height: 80vh;
+    margin-top: 10%;
 }
 
 .hero h1 {
-    color: rgb(191, 170, 166);
+    color: rgb(244, 242, 243);
 }
 
 .hero h1 small {
-    color: rgb(188, 129, 86);
+    color: rgb(158, 188, 159);
     font-weight: bold;
 }
 
-/* Main section */
+/* About section */
 
-.main-body {
-    padding-top: 15px;
-    min-height: 60vh;
-    background-color: rgb(191, 170, 166);
+.about {
+    background-color: rgb(158, 184, 186);
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
-.main-body .thumbnail {
+.about .portrait {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    background-image: url(../img/lewis-pic.jpg);
+    background-position: top;
+    border-radius: 5px;
+    border: 4px solid #ffffff;
+}
+
+/* Gallery section */
+
+.gallery-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 60vh;
+    background-color: rgb(211, 184, 140);
+}
+
+.gallery-body .thumbnail {
     max-width: 400px;
     margin: 10px auto;
 }
 
-@media (min-width: 767px) {
-    .hero-left {
-        position: absolute;
-        left: 5%;
-        top: 50%;
-        transform: translate(0, -50%);
-    }
-
-    .hero-right {
-        width: 90%;
-        position: absolute;
-        top: 50%;
-        right: 5%;
-        transform: translate(0, -50%);
-    }
+.gallery-body .panel-default {
+    background-color: rgb(158, 188, 159);
+    border: none;
+    margin-top: 30px;
 }
+
+.gallery-body .panel-default .panel-body strong {
+    font-size: 20px;
+}
+
+/* Contact section */
+
+.contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(101, 98, 86);
+}
+
+.contact h2 {
+    color: rgb(158, 188, 159);
+}
+
+.contact i {
+    color: rgb(244, 242, 243);
+    font-size: 5em;
+    background-color: rgb(158, 188, 159);
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(70, 83, 98);
+    height: 70px;
+}
+
+footer p strong {
+    color: rgb(244, 242, 243);
+}
+
+.footer {
+    height: 100%;
+    padding-top: 25px;
+}
+
+.footer i {
+    color: rgb(244, 242, 243);
+    font-size: 20px;
+    background-color: rgb(158, 188, 159);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 10px ;
+    border-radius: 5px;
+}
+
+@media (min-width: 767px) {}
 
 @media (max-width: 766px) {
     .hero {
@@ -149,4 +217,11 @@ body {
     .hero-body {
         min-height: 10vh;
     }
+    .about .portrait {
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        margin-bottom: 20px;
+    }
 }
+
