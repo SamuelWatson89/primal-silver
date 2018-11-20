@@ -1,23 +1,21 @@
 body {
-    padding-top: 80px;
+    padding-top: 70px;
     background-color: rgb(244, 242, 243);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(35, 9, 3);
-}
-
-p {
-    font-size: 18px;
+    position: relative;
 }
 
 /* Header Navigation bar */
 
 .navbar {
-    background-color: rgb(70, 83, 98);
+    background-color: rgb(80, 83, 98);
     border: 0;
-    height: 80px;
+    min-height: 70px;
 }
 
 .navbar-default .navbar-collapse {
+    min-height: 70px;
     border-color: transparent;
     background-color: rgb(80, 83, 98);
 }
@@ -31,83 +29,106 @@ p {
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: rgb(158, 188, 159);
+    background-color: rgb(158, 184, 186);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fafafa;
+    background-color: rgb(244, 242, 243);
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #fafafa;
+    color: rgb(244, 242, 243);
     background-color: rgb(158, 184, 186);
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #fafafa;
+    color: rgb(244, 242, 243);
 }
 
 .navbar .navbar-nav li a {
-    color: #fafafa;
-    height: 80px;
-    line-height: 55px;
+    color: rgb(244, 242, 243);
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar .navbar-nav li a:hover {
-    color: rgb(158, 184, 186);
+    color: rgb(211, 184, 140);
 }
 
-.navbar .navbar-brand {
+.navbar-header {
+    min-height: 70px;
+}
+
+.navbar-header .navbar-brand {
     font-size: 2em;
     font-weight: 900;
-    color: #fafafa;
-    height: 80px;
-    line-height: 55px;
-}
-
-.navbar .navbar-brand span {
-    font-weight: 900;
-    color: #;
+    color: rgb(244, 242, 243);
+    min-height: 70px;
+    line-height: 45px;
+    transition: all 0.2s ease-in-out;
 }
 
 .navbar .navbar-brand:hover {
-    color: #fafafa;
-}
-
-.navbar-default .navbar-nav a {
-    font-weight: bold;
-    height: 80px;
-    line-height: 80px;
+    color: rgb(211, 184, 140);
 }
 
 .navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: rgb(80, 83, 98);
+}
+
 .navbar-default .navbar-nav>.active>a:hover {
-    background: #;
-    color: #fafafa;
+    background-color: rgb(108, 130, 132)
 }
 
-.navbar li {
-    height: 80px;
+.navbar li a {
+    line-height: 40px;
+    font-weight: bold;
 }
 
+.navbar-right {
+    height: 70px;
+    line-height: 70px;
+    margin-right: 10px;
+}
+
+.navbar-right i {
+    color: rgb(244, 242, 243);
+    font-size: 20px;
+    background-color: rgb(158, 184, 186);
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(244, 242, 243);
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-right i:hover {
+    background: rgb(108, 130, 132);
+}
 
 /* Hero */
 
 .hero {
     min-height: 40vh;
-    /* background-image: url(../img/woods.jpg);
+    background-image: url(../img/woods.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
     background-color: rgb(101, 98, 86);
 }
 
 .hero-body {
+    background-color: rgba(158, 184, 186, 0.6);
+    padding: 5px;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .hero h1 {
@@ -115,7 +136,7 @@ p {
 }
 
 .hero h1 small {
-    color: rgb(158, 188, 159);
+    color: rgb(35, 9, 3);
     font-weight: bold;
 }
 
@@ -123,8 +144,8 @@ p {
 
 .about {
     background-color: rgb(158, 184, 186);
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
 .about .portrait {
@@ -134,90 +155,148 @@ p {
     background-image: url(../img/lewis-pic.jpg);
     background-position: top;
     border-radius: 5px;
-    border: 4px solid #ffffff;
+    border: 4px solid rgb(244, 242, 243);
 }
 
 /* Gallery section */
 
-.gallery-body {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.gallery {
+    padding-top: 70px;
+    padding-bottom: 65px;
     min-height: 60vh;
     background-color: rgb(211, 184, 140);
 }
 
-.gallery-body .thumbnail {
+.gallery .thumbnail {
     max-width: 400px;
     margin: 10px auto;
 }
 
-.gallery-body .panel-default {
-    background-color: rgb(158, 188, 159);
-    border: none;
+.gallery .thumbnail a:hover {
+    border-color: rgb(108, 130, 132);
+}
+
+.gallery .panel-default {
+    background-color: rgb(158, 184, 186);
+    border: 2px solid inherit;
     margin-top: 30px;
 }
 
-.gallery-body .panel-default .panel-body strong {
-    font-size: 20px;
+.gallery .panel-default .panel-body strong {
+    font-size: 18px;
+}
+
+.gallery .btn-primary {
+    background-color: rgb(175, 91, 119);
+    color: rgb(244, 242, 243);
+    border: 1px solid rgb(244, 242, 243);
+    transition: all 0.2s ease-in-out;
+}
+
+.gallery .btn-primary:hover {
+    transform: scale(1.2);
+    border: 1px solid rgba(244, 242, 243, 0.8);
+}
+
+.gallery .btn-primary:focus {
+    background: rgb(124, 63, 84);
 }
 
 /* Contact section */
 
 .contact {
-    padding-top: 15px;
+    min-height: 60vh;
+    padding-top: 70px;
     padding-bottom: 15px;
     color: rgb(101, 98, 86);
 }
 
 .contact h2 {
-    color: rgb(158, 188, 159);
+    color: rgb(158, 184, 186);
+}
+
+.contact .title {
+    background-color: rgba(158, 184, 186, 0.1);
+    margin-bottom: 30px;
 }
 
 .contact i {
     color: rgb(244, 242, 243);
-    font-size: 5em;
-    background-color: rgb(158, 188, 159);
+    font-size: 4.5em;
+    background-color: rgb(158, 184, 186);
     width: 70px;
     border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-footer {
-    background-color: rgb(70, 83, 98);
-    height: 70px;
+.bottom {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(158, 184, 186, 0.1)
 }
 
-footer p strong {
+.bottom i {
+    color: rgb(244, 242, 243);
+    font-size: 20px;
+    background-color: rgb(158, 184, 186);
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(244, 242, 243);
+    transition: all 0.2s ease-in-out;
+}
+
+.bottom i:hover {
+    background: rgb(108, 130, 132);
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(70, 83, 98);
+    height: 100px;
+}
+
+footer p {
     color: rgb(244, 242, 243);
 }
 
 .footer {
-    height: 100%;
-    padding-top: 25px;
+    min-height: 100%;
+    overflow: auto;
+    padding-top: 45px;
 }
 
 .footer i {
     color: rgb(244, 242, 243);
     font-size: 20px;
-    background-color: rgb(158, 188, 159);
+    background-color: rgb(158, 184, 186);
     width: 30px;
     height: 30px;
     padding: 5px;
-    margin-left: 10px ;
+    margin-left: 10px;
     border-radius: 5px;
+    border: 1px solid rgb(244, 242, 243);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer i:hover {
+    background: rgb(108, 130, 132);
 }
 
 @media (min-width: 767px) {}
 
 @media (max-width: 766px) {
     .hero {
-        min-height: 10vh;
+        min-height: 30vh;
         padding: 20px;
     }
-    .hero-body {
-        min-height: 10vh;
-    }
+
     .about .portrait {
         height: 200px;
         width: 200px;
@@ -225,4 +304,3 @@ footer p strong {
         margin-bottom: 20px;
     }
 }
-
