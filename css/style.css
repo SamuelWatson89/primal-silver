@@ -6,10 +6,21 @@ body {
     position: relative;
 }
 
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 28px ;
+}
 /* Header Navigation bar */
 
 .navbar {
-    background-color: rgb(80, 83, 98);
+    background-color: rgb(158, 184, 186);
     border: 0;
     min-height: 70px;
 }
@@ -17,7 +28,7 @@ body {
 .navbar-default .navbar-collapse {
     min-height: 70px;
     border-color: transparent;
-    background-color: rgb(80, 83, 98);
+    background-color: rgb(158, 184, 186);
 }
 
 /* Menu Icon */
@@ -39,8 +50,9 @@ body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: rgb(244, 242, 243);
-    background-color: rgb(158, 184, 186);
+    color: rgb(40, 68, 71);
+    font-weight: bold;
+    background-color: rgb(211, 184, 140);
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -49,12 +61,14 @@ body {
 }
 
 .navbar .navbar-nav li a {
+    width: 75px;
     color: rgb(244, 242, 243);
     transition: all 0.3s ease-in-out;
 }
 
 .navbar .navbar-nav li a:hover {
-    color: rgb(211, 184, 140);
+    color: rgb(40, 68, 71);
+    font-weight: bold;
 }
 
 .navbar-header {
@@ -63,7 +77,7 @@ body {
 
 .navbar-header .navbar-brand {
     font-size: 2em;
-    font-weight: 900;
+    font-weight: 100;
     color: rgb(244, 242, 243);
     min-height: 70px;
     line-height: 45px;
@@ -85,7 +99,6 @@ body {
 
 .navbar li a {
     line-height: 40px;
-    font-weight: bold;
 }
 
 .navbar-right {
@@ -116,7 +129,6 @@ body {
 /* Hero */
 
 .hero {
-    min-height: 40vh;
     background-image: url(../img/woods.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -127,8 +139,8 @@ body {
 .hero-body {
     background-color: rgba(158, 184, 186, 0.6);
     padding: 5px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .hero h1 {
@@ -149,11 +161,12 @@ body {
 }
 
 .about .portrait {
-    height: 350px;
-    width: 350px;
-    margin: auto;
+    height: 225px;
+    width: 225px;
+    margin: auto 0;
     background-image: url(../img/lewis-pic.jpg);
-    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
     border: 4px solid rgb(244, 242, 243);
 }
@@ -161,15 +174,40 @@ body {
 /* Gallery section */
 
 .gallery {
-    padding-top: 70px;
     padding-bottom: 65px;
     min-height: 60vh;
     background-color: rgb(211, 184, 140);
 }
 
-.gallery .thumbnail {
-    max-width: 400px;
-    margin: 10px auto;
+.gallery-full {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-full-middle {
+    margin: 50px 0;
+    padding: 0 15px;
+}
+
+.full-image {
+    margin: 0;
+    padding: 0;
+}
+
+.full-image label {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(244, 242, 243, 0.6);
+    width: 100%;
+    margin-bottom: 0;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 1.4em;
+}
+
+.cover-image {
+    max-width: 100%;
 }
 
 .gallery .thumbnail a:hover {
@@ -202,30 +240,35 @@ body {
     background: rgb(124, 63, 84);
 }
 
+
 /* Contact section */
 
 .contact {
     min-height: 60vh;
     padding-top: 70px;
     padding-bottom: 15px;
-    color: rgb(101, 98, 86);
+    color: rgb(244, 242, 243);
+    background-color: rgba(101, 98, 86, 0.8);
 }
 
 .contact h2 {
     color: rgb(158, 184, 186);
 }
 
+.contact p {}
+
 .contact .title {
-    background-color: rgba(158, 184, 186, 0.1);
     margin-bottom: 30px;
 }
 
 .contact i {
     color: rgb(244, 242, 243);
-    font-size: 4.5em;
+    font-size: 7.5em;
     background-color: rgb(158, 184, 186);
-    width: 70px;
+    width: 100%;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -233,7 +276,6 @@ body {
 .bottom {
     margin-top: 20px;
     padding: 20px;
-    background-color: rgba(158, 184, 186, 0.1)
 }
 
 .bottom i {
@@ -294,13 +336,17 @@ footer p {
 @media (max-width: 766px) {
     .hero {
         min-height: 30vh;
-        padding: 20px;
+    }
+    
+    .hero-body {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .about .portrait {
         height: 200px;
         width: 200px;
-        background-size: contain;
+        background-size: cover;
         margin-bottom: 20px;
     }
 }
