@@ -1,9 +1,5 @@
 body {
     padding-top: 70px;
-    background-image: url(../img/woodland.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color: rgb(244, 242, 243);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(35, 9, 3);
@@ -11,8 +7,8 @@ body {
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.45;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 h2 {
@@ -23,15 +19,19 @@ h3 {
     font-size: 28px;
 }
 
-.opaque-cover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    z-index: -1;
+i {
+    color: rgb(244, 242, 243);
+    font-size: 2em;
+    line-height: 20px;
+    margin: 3px;
+    transition: all 0.2s ease-in-out;
 }
+
+i:hover {
+    color: rgb(200, 200, 200);
+    transform: scale(1.1)
+}
+
 
 /* Header Navigation bar */
 
@@ -118,39 +118,18 @@ h3 {
 }
 
 .navbar-right {
-    height: 70px;
-    line-height: 70px;
     margin-right: 10px;
-}
-
-.navbar-right i {
-    color: rgb(244, 242, 243);
-    font-size: 20px;
-    background-color: rgb(158, 184, 186);
-    width: 30px;
-    height: 30px;
-    padding-top: 5px;
-    margin-left: 10px;
-    border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid rgb(244, 242, 243);
-    transition: all 0.2s ease-in-out;
-}
-
-.navbar-right i:hover {
-    background: rgb(108, 130, 132);
+    margin-top: 20px;
 }
 
 /* Hero */
 
 .hero {
-    background-color: rgba(255, 255, 255, 0.2);
-    /* background-image: url(../img/woodland.jpg);
+    background-image: url(../img/woodland.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(101, 98, 86); */
+    background-color: rgb(101, 98, 86);
 }
 
 .hero-body {
@@ -177,10 +156,11 @@ h3 {
     padding-bottom: 60px;
 }
 
-.about .portrait {
+.portrait,
+.tools {
     height: 245px;
     width: 245px;
-    margin: 5px;
+    margin: auto;
     background-image: url(../img/lewis-pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,7 +169,13 @@ h3 {
     transition: all 0.2s ease-in-out;
 }
 
-.about .portrait:hover {
+.tools {
+    background-image: url(../img/tools.jpg);
+    margin: 0;
+}
+
+.portrait:hover,
+.tools:hover {
     box-shadow: -1px 3px 15px 0 #0f0f0f;
     transform: translate( 2px, -2px);
 }
@@ -198,7 +184,11 @@ h3 {
 
 .gallery {
     min-height: 60vh;
-    background-color: rgb(211, 184, 140);
+    background-color: rgb(255, 255, 255);
+}
+
+.gallery h2 {
+    color: rgb(158, 184, 186);
 }
 
 .gallery-full {
@@ -262,7 +252,6 @@ h3 {
     background: rgb(124, 63, 84);
 }
 
-
 /* Contact section */
 
 .contact {
@@ -277,46 +266,21 @@ h3 {
     color: rgb(158, 184, 186);
 }
 
-.contact p {}
-
 .contact .title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.contact i {
-    color: rgb(244, 242, 243);
-    font-size: 7.5em;
-    background-color: rgb(158, 184, 186);
-    width: 100%;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.contact .info {
+    margin-top: 50px;
+}
+
+.info h3 {
+    color: rgb(158, 184, 186);
 }
 
 .bottom {
     margin-top: 20px;
     padding: 20px;
-}
-
-.bottom i {
-    color: rgb(244, 242, 243);
-    font-size: 20px;
-    background-color: rgb(158, 184, 186);
-    width: 40px;
-    height: 40px;
-    padding-top: 10px;
-    margin-left: 10px;
-    border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid rgb(244, 242, 243);
-    transition: all 0.2s ease-in-out;
-}
-
-.bottom i:hover {
-    background: rgb(108, 130, 132);
 }
 
 /* Footer */
@@ -336,26 +300,9 @@ footer p {
     padding-top: 45px;
 }
 
-.footer i {
-    color: rgb(244, 242, 243);
-    font-size: 20px;
-    background-color: rgb(158, 184, 186);
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    margin-left: 10px;
-    border-radius: 5px;
-    border: 1px solid rgb(244, 242, 243);
-    transition: all 0.2s ease-in-out;
-}
-
-.footer i:hover {
-    background: rgb(108, 130, 132);
-}
-
 @media (min-width: 767px) {}
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
     .navbar .navbar-nav li a {
         width: auto;
         text-align: left;
@@ -374,6 +321,13 @@ footer p {
         width: 225px;
         background-size: cover;
         margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .what-do-i-do {
+        background-color: rgb(181, 210, 212);
     }
 }
 
