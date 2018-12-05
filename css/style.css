@@ -32,6 +32,15 @@ i:hover {
     transform: scale(1.1)
 }
 
+.subtle-link {
+    color: rgb(158, 184, 186);
+
+    font-weight: bold;
+}
+
+.subtle-link:hover {
+    color: rgb(224, 222, 223);
+}
 
 /* Header Navigation bar */
 
@@ -39,6 +48,7 @@ i:hover {
     background-color: rgb(158, 184, 186);
     border: 0;
     min-height: 70px;
+    box-shadow: 0px 1px 15px 0px rgb(109, 99, 97);
 }
 
 .navbar-default .navbar-collapse {
@@ -174,13 +184,12 @@ i:hover {
 
 .tools {
     background-image: url(../img/tools.jpg);
-    margin: 0;
 }
 
 .portrait:hover,
 .tools:hover {
-    box-shadow: -1px 3px 15px 0 #0f0f0f;
-    transform: translate( 2px, -2px);
+    box-shadow: -1px 3px 15px 0 rgb(109, 99, 97);
+    transform: translate( 1px, -1px);
 }
 
 /* Gallery section */
@@ -188,7 +197,8 @@ i:hover {
 .gallery {
     margin-bottom: 10px;
     min-height: 60vh;
-    color: rgb(244, 242, 243);;
+    color: rgb(244, 242, 243);
+    ;
     background-color: rgb(101, 98, 86);
 }
 
@@ -215,7 +225,7 @@ i:hover {
     position: absolute;
     z-index: 2;
     bottom: 0;
-    background-color:rgb(158, 184, 186);
+    background-color: rgb(158, 184, 186);
     background-color: rgba(158, 184, 186, 0.8);
     width: 100%;
     margin-bottom: 0;
@@ -240,6 +250,42 @@ i:hover {
     background-color: rgb(139, 163, 165);
     color: rgb(255, 255, 255);
 }
+
+/* Testimonials */
+
+.testimonial {
+    background-color: rgb(193, 176, 152);
+}
+
+.testimonial-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.media {
+    background-color: rgb(205, 192, 173);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.media-heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.media-body {
+    border-left: 2px solid rgb(158, 184, 186);
+    padding-left: 4px;
+}
+
+blockquote footer {
+    background-color: transparent;
+    height: auto;
+    color: rgb(244, 242, 243);
+}
+
 
 /* Contact section */
 
