@@ -125,7 +125,9 @@ i:hover {
 /* Hero */
 
 .hero {
-    background-image: url(../img/woodland.jpg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../img/banner-sm.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,6 +156,7 @@ i:hover {
     background-color: rgb(158, 184, 186);
     padding-top: 70px;
     padding-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .portrait,
@@ -183,8 +186,10 @@ i:hover {
 /* Gallery section */
 
 .gallery {
+    margin-bottom: 10px;
     min-height: 60vh;
-    background-color: rgb(255, 255, 255);
+    color: rgb(244, 242, 243);;
+    background-color: rgb(101, 98, 86);
 }
 
 .gallery h2 {
@@ -210,46 +215,30 @@ i:hover {
     position: absolute;
     z-index: 2;
     bottom: 0;
-    background: rgba(244, 242, 243, 0.6);
+    background-color:rgb(158, 184, 186);
+    background-color: rgba(158, 184, 186, 0.8);
     width: 100%;
     margin-bottom: 0;
     padding: 5px;
     padding-left: 15px;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .cover-image {
     max-width: 100%;
 }
 
-.gallery .thumbnail a:hover {
-    border-color: rgb(108, 130, 132);
-}
-
-.gallery .panel-default {
+.btn-gallery {
     background-color: rgb(158, 184, 186);
-    border: 2px solid inherit;
-    margin-top: 30px;
-}
-
-.gallery .panel-default .panel-body strong {
-    font-size: 18px;
-}
-
-.gallery .btn-primary {
-    background-color: rgb(175, 91, 119);
-    color: rgb(244, 242, 243);
-    border: 1px solid rgb(244, 242, 243);
+    color: rgb(35, 9, 3);
+    margin: 10px;
     transition: all 0.2s ease-in-out;
 }
 
-.gallery .btn-primary:hover {
-    transform: scale(1.2);
-    border: 1px solid rgba(244, 242, 243, 0.8);
-}
-
-.gallery .btn-primary:focus {
-    background: rgb(124, 63, 84);
+.btn-gallery:hover {
+    background-color: rgb(139, 163, 165);
+    color: rgb(255, 255, 255);
 }
 
 /* Contact section */
@@ -279,8 +268,7 @@ i:hover {
 }
 
 .bottom {
-    margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Footer */
