@@ -34,12 +34,15 @@ i:hover {
 
 .subtle-link {
     color: rgb(158, 184, 186);
-
     font-weight: bold;
 }
 
 .subtle-link:hover {
     color: rgb(224, 222, 223);
+}
+
+.bottom {
+    margin-top: 45px;
 }
 
 /* Header Navigation bar */
@@ -151,11 +154,13 @@ i:hover {
     margin-bottom: 15%;
 }
 
-.hero h1 {
+.hero h1,
+.hero h2{
     color: rgb(244, 242, 243);
 }
 
-.hero h1 small {
+.hero h1 small,
+.hero h2 small {
     color: rgb(35, 9, 3);
     font-weight: bold;
 }
@@ -164,8 +169,8 @@ i:hover {
 
 .about {
     background-color: rgb(158, 184, 186);
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: 10px;
 }
 
@@ -174,12 +179,15 @@ i:hover {
     height: 245px;
     width: 245px;
     margin: auto;
-    background-image: url(../img/lewis-pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
     border: 3px solid rgb(244, 242, 243);
     transition: all 0.2s ease-in-out;
+}
+
+.portrait {
+    background-image: url(../img/lewis-pic.jpg);
 }
 
 .tools {
@@ -196,9 +204,9 @@ i:hover {
 
 .gallery {
     margin-bottom: 10px;
+    padding-bottom: 50px;
     min-height: 60vh;
     color: rgb(244, 242, 243);
-    ;
     background-color: rgb(101, 98, 86);
 }
 
@@ -255,37 +263,35 @@ i:hover {
 
 .testimonial {
     background-color: rgb(193, 176, 152);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .testimonial-body {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 4px;
 }
 
-.media {
+.testimonial .media {
     background-color: rgb(205, 192, 173);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-top: 30px;
+    border: 1px solid rgb(168, 168, 168);
 }
 
+.testimonial .media-left {
+    padding: 3px;
+}
 
-.media-heading {
+.testimonial .media-heading {
     font-weight: bold;
     font-size: 24px;
 }
 
-.media-body {
+.testimonial .media-body {
     border-left: 2px solid rgb(158, 184, 186);
     padding-left: 4px;
 }
-
-blockquote footer {
-    background-color: transparent;
-    height: auto;
-    color: rgb(244, 242, 243);
-}
-
 
 /* Contact section */
 
@@ -297,24 +303,12 @@ blockquote footer {
     background-color: rgba(101, 98, 86, 0.7);
 }
 
-.contact h2 {
-    color: rgb(158, 184, 186);
-}
-
-.contact .title {
-    margin-bottom: 20px;
-}
-
 .contact .info {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .info h3 {
     color: rgb(158, 184, 186);
-}
-
-.bottom {
-    padding: 10px;
 }
 
 /* Footer */
@@ -362,6 +356,13 @@ footer p {
 @media (max-width: 990px) {
     .what-do-i-do {
         background-color: rgb(181, 210, 212);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .who-am-i {
+        padding-bottom: 30px;
+        text-align: center;
     }
 }
 
