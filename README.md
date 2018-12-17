@@ -7,10 +7,14 @@ The website will aim to promote and expand the business.
 
 ## UX ##
 
-The site supply’s a single page view, with link to anchor points. Each section will have a "read more" button to a separate page with more detailed information in comparison to the single page.
-The site will offer a description of the company, samples of work, contact and location information.
+~~The site supply’s a single page view, with link to anchor points. Each section will have a "read more" button to a separate page with more detailed information in comparison to the single page.
+The site will offer a description of the company, samples of work, contact and location information.~~
 
-[Link to mock layout image](assets/ps-mock.png)
+The site will provide a frontpage with information and images about the company. The main navigation bar will be sticky at the to of the page
+and provide navigation to more detailed area of the website. All pages will be accesible from every page of the site.
+The site is to include a main "hero" section with the page titles in.
+
+[Link to initial mock layout image](assets/ps-mock.png)
 
 [Link to GitHub Pages view](https://samuelwatson89.github.io/primal-silver/)
 
@@ -25,13 +29,21 @@ The site will offer a description of the company, samples of work, contact and l
 * Links to eternal social media
 
 
-#### Future features ###
+## Future features ##
 
-* Store
+## Testing ##
+
+1. Ensuring all sections render well, display relevant & appropriate amounts of conntent, without breaking design layout.
+2. The above, but ensuring everything is in order with different sized screens, providing clean design & layout.
+
+## Changes ##
+
+* Single page layout was not providing enough, changed to multiple pages after testing.
+* Added additional testimonial/review section to front page.
 
 ## Tech used ##
 
 * HTML5
-* CSS3
-* JavaScript
-* Bootstrap
+* CSS3 (Bootstrap and Personal)
+* JavaScript (Bootstrap elements)
+* Bootstra
