@@ -42,7 +42,7 @@ i:hover {
 }
 
 .bottom {
-    margin-top: 45px;
+    margin-top: 5px;
 }
 
 /* Header Navigation bar */
@@ -169,8 +169,8 @@ i:hover {
 
 .about {
     background-color: rgb(158, 184, 186);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-bottom: 10px;
 }
 
@@ -204,8 +204,6 @@ i:hover {
 
 .gallery {
     margin-bottom: 10px;
-    padding-bottom: 50px;
-    min-height: 60vh;
     color: rgb(244, 242, 243);
     background-color: rgb(101, 98, 86);
 }
@@ -220,7 +218,7 @@ i:hover {
 }
 
 .gallery-full-middle {
-    margin: 50px 0;
+    margin: 10px 0;
     padding: 0 15px;
 }
 
@@ -247,24 +245,16 @@ i:hover {
     max-width: 100%;
 }
 
-.btn-gallery {
-    background-color: rgb(158, 184, 186);
-    color: rgb(35, 9, 3);
-    margin: 10px;
-    transition: all 0.2s ease-in-out;
-}
-
-.btn-gallery:hover {
-    background-color: rgb(139, 163, 165);
-    color: rgb(255, 255, 255);
-}
-
 /* Testimonials */
 
 .testimonial {
     background-color: rgb(193, 176, 152);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.testimonial small {
+    color: rgb(244, 242, 243);
 }
 
 .testimonial-body {
@@ -375,11 +365,6 @@ footer p {
 }
 
 @media (max-width: 991px) {
-    .what-do-i-do {
-        background-color: rgb(181, 210, 212);
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
 
     .who-am-i {
         padding-bottom: 30px;
