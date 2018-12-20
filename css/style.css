@@ -245,6 +245,7 @@ i:hover {
 /* Testimonials */
 
 .testimonial {
+    margin-bottom: 10px;
     background-color: rgb(193, 176, 152);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -279,6 +280,7 @@ i:hover {
 /* Contact section */
 
 .contact {
+    margin-bottom: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: rgb(244, 242, 243);
@@ -327,8 +329,6 @@ footer p {
     overflow: auto;
     padding-top: 45px;
 }
-
-@media (min-width: 767px) {}
 
 @media (max-width: 768px) {
     .navbar .navbar-nav li a {
