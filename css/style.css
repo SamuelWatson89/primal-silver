@@ -1,14 +1,14 @@
 body {
     padding-top: 70px;
     background-color: rgb(244, 242, 243);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     color: rgb(35, 9, 3);
     position: relative;
 }
 
 p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 h2 {
@@ -17,6 +17,10 @@ h2 {
 
 h3 {
     font-size: 28px;
+}
+
+h2 small {
+    color: rgb(244, 242, 243);
 }
 
 i {
@@ -40,6 +44,11 @@ i:hover {
 .subtle-link:hover {
     color: rgb(224, 222, 223);
 }
+
+.quote-font {
+    font-family: Georgia, Times, Times New Roman, serif; 
+}
+
 
 .bottom {
     margin-top: 5px;
@@ -90,7 +99,7 @@ i:hover {
 }
 
 .navbar .navbar-nav li a {
-    width: 75px;
+    width: 85px;
     color: rgb(244, 242, 243);
     transition: all 0.3s ease-in-out;
 }
@@ -162,7 +171,6 @@ i:hover {
 .hero h1 small,
 .hero h2 small {
     color: rgb(35, 9, 3);
-    font-weight: bold;
 }
 
 /* About section */
@@ -242,10 +250,6 @@ i:hover {
     padding-bottom: 20px;
 }
 
-.testimonial small {
-    color: rgb(244, 242, 243);
-}
-
 .testimonial-body {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -253,8 +257,9 @@ i:hover {
 }
 
 .testimonial .media {
-    background-color: rgb(205, 192, 173);
-    margin-top: 30px;
+    background-color: rgb(175, 180, 169);
+    margin-top: 20px;
+    padding: 4px;
     border: 1px solid rgb(168, 168, 168);
 }
 
@@ -268,22 +273,16 @@ i:hover {
 }
 
 .testimonial .media-body {
-    border-left: 2px solid rgb(158, 184, 186);
     padding-left: 4px;
 }
 
 /* Contact section */
 
 .contact {
-    min-height: 60vh;
-    padding-top: 70px;
+    padding-top: 15px;
     padding-bottom: 15px;
     color: rgb(244, 242, 243);
     background-color: rgba(101, 98, 86, 0.7);
-}
-
-.contact .info {
-    margin-top: 30px;
 }
 
 .info h3 {
@@ -347,13 +346,5 @@ footer p {
 
     .about .portrait {
         margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .who-am-i {
-        padding-bottom: 30px;
-        text-align: center;
     }
 }

@@ -35,6 +35,7 @@ The site is to include a main "hero" section with the page titles in.
 
 1. Ensuring all sections render well, display relevant & appropriate amounts of conntent, without breaking design layout.
 2. The above, but ensuring everything is in order with different sized screens, providing clean design & layout.
+3. Tested all anchor and buttons links on each page to ensure they reach their destination and are not dead links.
 
 ## Changes ##
 
