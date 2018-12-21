@@ -42,10 +42,29 @@ The site is to include a main "hero" section with the page titles in.
 * Single page layout was not providing enough, changed to multiple pages after testing.
 * Added additional testimonial/review section to front page.
 
+## Deployment ## 
+
+The site is to be deployed to GitHub pages
+Development site is kept local on machine, and deployed version is pushed to Github
+
+[Link to GitHub Pages view](https://samuelwatson89.github.io/primal-silver/)
+
 ## Tech used ##
 
 * HTML5
 * CSS3 (Bootstrap and Personal)
 * JavaScript (Bootstrap elements)
 * Bootstrap
-* Simple Light Box (Copyright (c) 2016 Andre Rinas http://simplelightbox.com/)
+* [Simple Light Box](http://simplelightbox.com) (Copyright (c) 2016 Andre Rinas)
+
+## Credit ##
+
+#### Content ####
+* All content from Lewis Preston
+
+#### Media ####
+* All media and images from Lewis Preston
+
+#### Acknowledgments ####
+* Lewis Preston - Opportunity to develop site
+* Mark Railton - Guidance and support
