@@ -47,4 +47,5 @@ The site is to include a main "hero" section with the page titles in.
 * HTML5
 * CSS3 (Bootstrap and Personal)
 * JavaScript (Bootstrap elements)
-* Bootstra
+* Bootstrap
+* Simple Light Box (Copyright (c) 2016 Andre Rinas http://simplelightbox.com/)

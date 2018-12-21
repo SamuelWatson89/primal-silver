@@ -173,7 +173,7 @@ i:hover {
     color: rgb(35, 9, 3);
 }
 
-/* About section */
+/* About */
 
 .about {
     background-color: rgb(158, 184, 186);
@@ -196,7 +196,7 @@ i:hover {
     max-width: 400px;
 }
 
-/* Frontpage Gallery section */
+/* Gallery */
 
 .gallery {
     margin-bottom: 10px;
@@ -277,7 +277,7 @@ i:hover {
     padding-left: 4px;
 }
 
-/* Contact section */
+/* Contact */
 
 .contact {
     margin-bottom: 10px;
@@ -291,7 +291,7 @@ i:hover {
     color: rgb(158, 184, 186);
 }
 
-/* Work page */
+/* Work */
 
 .work {
     margin-bottom: 10px;
