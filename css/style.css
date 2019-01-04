@@ -196,6 +196,15 @@ i:hover {
     max-width: 400px;
 }
 
+.biggerContent p { 
+    font-size: 22px;
+}
+
+.dark {
+    color: rgb(61, 61, 61);
+    padding: 3px;
+}
+
 /* Gallery */
 
 .gallery {
