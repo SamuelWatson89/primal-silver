@@ -15,7 +15,8 @@ and provide navigation to more detailed area of the website. All pages will be a
 The site is to include a main "hero" section with the page titles in.
 
 ~~[Link to initial mock layout image](assets/ps-mock.png)~~
-[Link to initial mock layout image](assets/ps-mock-2.png)
+
+[Link to altered mock layout image](assets/ps-mock-2.png)
 
 [Link to GitHub Pages view](https://samuelwatson89.github.io/primal-silver/)
 
