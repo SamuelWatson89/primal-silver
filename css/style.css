@@ -46,7 +46,7 @@ i:hover {
 }
 
 .quote-font {
-    font-family: Georgia, Times, Times New Roman, serif; 
+    font-family: Georgia, Times, Times New Roman, serif;
 }
 
 
@@ -196,7 +196,7 @@ i:hover {
     max-width: 400px;
 }
 
-.biggerContent p { 
+.biggerContent p {
     font-size: 22px;
 }
 
@@ -344,6 +344,7 @@ footer p {
         width: auto;
         text-align: left;
     }
+
     .hero {
         min-height: 30vh;
     }
