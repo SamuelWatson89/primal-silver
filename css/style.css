@@ -139,9 +139,10 @@ i:hover {
     line-height: 40px;
 }
 
-.navbar-right {
-    margin-right: 10px;
-    margin-top: 20px;
+.navbar .navbar-right li a {
+    padding: 15px 0px;
+    height: 70px;
+    width: 50px;
 }
 
 /* Hero */
