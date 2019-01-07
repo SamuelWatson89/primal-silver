@@ -13,6 +13,24 @@ The site will offer a description of the company, samples of work, contact and l
 The site will provide a frontpage with information and images about the company. The main navigation bar will be sticky at the to of the page
 and provide navigation to more detailed area of the website. All pages will be accesible from every page of the site.
 The site is to include a main "hero" section with the page titles in.
+#### The main page will include: ####
+* Sample gallery
+* Small about section
+* Testimonial section
+
+#### The work page ill provide: ####
+* A full clickalbe gallery of image
+* Third party lightbox
+
+#### The about page will contain: ####
+* Description of the company
+* what the company does
+* how the comapny does it
+
+#### The contact page will contain: ####
+* Links to external social  media
+* Direct contact info (email, phone etc..)
+* Contact forn (not functional for this project)
 
 ~~[Link to initial mock layout image](assets/ps-mock.png)~~
 
