@@ -61,6 +61,7 @@ The site is to include a main "hero" section with the page titles in.
 ## Changes ##
 
 * Single page layout was not providing enough flexibilty for the site. Have updated to multiple pages after testing, this provieds a dedicated page for each section.
+* Mock-ups recreated for multipage design.
 * Added additional testimonial/review section to front page.
 
 ## Deployment ## 
