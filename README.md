@@ -56,10 +56,11 @@ The site is to include a main "hero" section with the page titles in.
 1. Ensuring all sections render well, display relevant & appropriate amounts of conntent, without breaking design layout.
 2. The above, but ensuring everything is in order with different sized screens, providing clean design & layout.
 3. Tested all anchor and buttons links on each page to ensure they reach their destination and are not dead links.
+4. Gallery page is working as expected, al images display when clicked.
 
 ## Changes ##
 
-* Single page layout was not providing enough, changed to multiple pages after testing.
+* Single page layout was not providing enough flexibilty for the site. Have updated to multiple pages after testing, this provieds a dedicated page for each section.
 * Added additional testimonial/review section to front page.
 
 ## Deployment ## 
